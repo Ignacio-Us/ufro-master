@@ -1,0 +1,10 @@
+pp2:
+  - name: "pp2-verifier"
+    endpoint_verify: "http://100.30.153.159:5813/verify"
+    threshold: 0.9
+    active: true
+
+pp1: []
+# Ejemplo PP1 (RAG normativa)
+# - name: "pp1-demo"
+#   endpoint: "http://localhost:9010/ask"
