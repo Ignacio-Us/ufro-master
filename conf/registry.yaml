@@ -4,7 +4,7 @@ pp2:
     threshold: 0.9
     active: true
 
-pp1: []
-# Ejemplo PP1 (RAG normativa)
-# - name: "pp1-demo"
-#   endpoint: "http://localhost:9010/ask"
+pp1:
+  - name: "pp1-normativa"
+    endpoint: "http://54.161.208.25:5813/query"
+    active: true
